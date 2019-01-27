@@ -1,0 +1,57 @@
+object MainForm: TMainForm
+  Left = 0
+  Top = 0
+  Caption = 'Form10'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object tlbMain: TToolBar
+    Size.Width = 640.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+  end
+  object pnlMain: TPanel
+    Align = Client
+    Size.Width = 640.000000000000000000
+    Size.Height = 440.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object pnlFolders: TPanel
+      Align = Left
+      Size.Width = 120.000000000000000000
+      Size.Height = 440.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object TreeView1: TTreeView
+        Align = Client
+        Size.Width = 120.000000000000000000
+        Size.Height = 440.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        ShowCheckboxes = True
+        Viewport.Width = 116.000000000000000000
+        Viewport.Height = 436.000000000000000000
+      end
+    end
+    object pnlThumbNails: TPanel
+      Align = Client
+      Size.Width = 512.000000000000000000
+      Size.Height = 440.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+    end
+    object splMain: TSplitter
+      Align = Left
+      Cursor = crHSplit
+      MinSize = 20.000000000000000000
+      Position.X = 120.000000000000000000
+      Size.Width = 8.000000000000000000
+      Size.Height = 440.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+end
