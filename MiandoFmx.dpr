@@ -4,7 +4,7 @@ uses
   System.StartUpCopy,
   FMX.Forms,
   Main in 'Main.pas' {MainForm},
-  Dirutils in 'Dirutils.pas';
+  FolderTree in 'FolderTree.pas';
 
 {$R *.res}
 
